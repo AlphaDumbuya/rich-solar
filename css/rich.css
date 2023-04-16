@@ -66,7 +66,7 @@ a{
 .hero{
     width: 100%;
     padding: 160px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url("/img/solar-rich.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url("/img/rich.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,13 +106,6 @@ a{
     text-align: center;
 }
 
-/* What we provide */
-.what-we-provide{
-  position: absolute;
-  padding-top: 60px;
-  background-image: linear-gradient(80deg rgba(0, 0, 0, 0.85), transparent) url(/img/solar.jpeg);
-  margin-bottom: 100px;
-}
 /* products */
 .products{
     width: 100%;
