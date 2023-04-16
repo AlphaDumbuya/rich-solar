@@ -1,0 +1,251 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background-color: #f2f5ff;
+}
+/* Nav header */
+header{
+    background-color: orange;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-branding{
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: dodgerblue;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+/* hero section */
+.hero{
+    width: 100%;
+    padding: 160px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url("/img/solar-rich.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.hero-left-content h1{
+    font-size: 12px;
+    border-bottom: 5px solid teal wavy;
+}
+.hero-left-content h2{
+    font-size: 24px;
+    padding: 6px 0;
+    
+}
+.hero-left-content p{
+    padding: 4px 35px 0 0;
+}
+
+/* About */
+.about{
+    width: 100%;
+    padding: 50px 20px;
+    background-color: #eee;
+}
+.about-content{
+    padding: 80px 0;
+}
+
+.about h3 {
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 5px solid orange;
+    width: 130px;
+    text-align: center;
+}
+
+/* What we provide */
+.what-we-provide{
+  position: absolute;
+  padding-top: 60px;
+  background-image: linear-gradient(80deg rgba(0, 0, 0, 0.85), transparent) url(/img/solar.jpeg);
+  margin-bottom: 100px;
+}
+/* products */
+.products{
+    width: 100%;
+    padding: 50px 20px;
+}
+.products-card{
+    background-color: rgba(89, 64, 64, 0.56);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.products-image{
+    height: 250px;
+    width: 90px;
+    width: 100%;
+    border-radius: 10px;
+}
+.products-image img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
+}
+.products .products-image img{
+    height: 250px;
+}
+.products-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+.products h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.products h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn{
+   margin: 10px;
+}
+
+
+/* Media query styles for desktop screen */
+@media(max-width:768px) {
+    /* Header styles */
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        color: #262626;
+        width: 100%;
+        text-align: center;
+        transform: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu:active{
+        left: 0;
+    }
+}
+@media(min-width: 720px){
+    /* Body */
+    body{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /* hero */
+    .hero{
+        padding: 200px 100px;
+        height: 500px;
+        margin-top: -11px;
+    }
+    .hero h1{
+        font-size: 16px;
+    }
+    .hero h2{
+        font-size: 45px;
+    }
+    .hero h3{
+        font-size: 18px;
+    }
+    /* Productts */
+.products{
+    padding: 80px 100px;
+}
+.products-card{
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+}
+.products-image{
+    width: 50%;
+    
+    margin-right: 30px;
+}
+.products-content{
+    width: 50%;
+    margin-top: 0;
+}
+.products-content p{
+    margin-top: 8px;
+}
+.button{
+    
+    padding: 8px 30px;
+    
+}
+} 
+
+
+
+
+
+
+
+
