@@ -1,21 +1,19 @@
- /*  const hamburger = document.querySelector(".hamburger");
 
-
-hamburger.addEventListener("active", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
-
-document.querySelectorAll(".nav-link").forEach(n = n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-})) 
-*/
-
-const navMenu = document.querySelector(".nav-menu");
+const navMenu = document.querySelector("._nav_menu");
 const openMenu = document.querySelector(".hamburger");
-console.log(openMenu);
+const closeMenu = document.querySelector(".close_menu")
 
+// Pop up functionality
 openMenu.addEventListener('click', _ => {
     navMenu.style.display = 'flex';
+})
+
+// close functionality
+closeMenu.addEventListener('click', _ => {
+    navMenu.style.display = 'none'
+})
+
+// nav menu body functionality
+navMenu.addEventListener('click', _ => {
+    navMenu.style.display = 'none'  // when a user clicks on any party of the nav it closes
 })
