@@ -1,24 +1,23 @@
-
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior:smooth;
-}
+
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    background-color: #f2f5ff;
+    font-size: 14px;
+    background-color: #f2faff;
 }
+
 /* Nav header */
 header{
     background-color: orange;
     position: fixed;
     z-index: 100;
     width: 100%;
+    top: 0;
 }
+
 li{
     list-style: none;
 }
@@ -91,58 +90,17 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 }
-/* hero section */
-.hero{
-    width: 100%;
-    padding: 160px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url(/img/solar.jpeg);  
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    font-size: 15px;
-    text-align: center;
-}
-.hero-left-content h1{
-    font-size: 12px;
-    border-bottom: 5px solid teal wavy;
-}
-.hero-left-content h2{
-    font-size: 24px;
-    padding: 6px 0;
-    
-}
-.hero-left-content p{
-    padding: 4px 35px 0 0;
-}
 
-/* About */
-.about{
-    width: 100%;
-    padding: 50px 20px;
-    background-color: #eee;
-}
-.about-content{
-    padding: 80px 0;
-}
-
-.about h3 {
-    font-size: 25px;
-    font-weight: 600;
-    border-bottom: 5px solid orange;
-    width: 130px;
-    text-align: center;
-}
 
 /* products */
 .products{
     width: 100%;
     padding: 50px 20px;
-    margin-bottom: 15%;
+    margin-top: 50px;
+    
 }
 .products-card{
-    background-color: rgba(89, 64, 64, 0.56);
+    background-color: rgba(64, 70, 89, 0.56);
     color: #fff;
     border-radius: 10px;
     padding: 10px;
@@ -179,40 +137,21 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
-.ct-btn{
-    background-image: linear-gradient(to right, #f46b45, #eea849 51%, #ba8b02);
-   border: 1px solid white;
-   height: 40px;
-   width: 100%;
-   padding-left: 20px;
-   padding-right: 20px;
-}
-.ct-btn a{
-    font-size: 20px;
-    font-weight: bold;
-}
 
-
-/* Footer */
-footer{
-    width: 100%;
-    padding: 5px 0;
-    background-color: #ccc;
-    text-align: center;
-    
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(4, 6, 36);
+    margin-top: 50px;
+    border: none;
+    margin-left: 1x;
 }
-
-footer {
+.btn a{
+    font-size: 18px;
     color: #fff;
-    background-color: #171616;
+    text-decoration: none;
 }
 
-.foot .socials{
-    display: inline-block;
-}
-footer p{
-    font-size: 10px;
-}
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
     /* Header styles */
@@ -249,39 +188,12 @@ footer p{
 }
 
 @media screen and (min-width: 768px){
-    /* Body */
-    body{
-        font-size: 15px;
-    }
-    h2{
-        font-size: 30px;
-    }
-    /* hero */
-    .hero{
-        padding: 200px 100px;
-        height: 500px;
-        margin-top: -11px;
-    }
-
-    /* nav_menu  */
-    ._nav_menu {
-        display: none;
-    }
-
-    .hero h1{
-        font-size: 16px;
-    }
-    .hero h2{
-        font-size: 45px;
-    }
-    .hero h3{
-        font-size: 18px;
-    }
+    
     /* Productts */
 .products{
     
     padding: 80px 100px;
-     margin-bottom: 10px
+     margin-bottom: -35%;
 }
 .products-card{
     padding: 15px;
@@ -302,53 +214,9 @@ footer p{
 .products-content p{
     margin-top: 8px;
 }
-.ct-btn{
-    
-    margin-top: -30%;
+.btn{
+    margin-top: 113px;
 }
-
-/* About */
-.about{
-    padding: 80px 100px;
-    display: flex;
-}
-.about-content{
-   width: 50%;
-   margin-right: 30px;
-}
-.about-image{
-    width: 50%;
-}
-.about-button{
-    padding: 8px 30px;
-}
-/* contact */
-.contact{
-    margin: 30px;
-    padding: 80px 100px;
-     
-}  
-
-.contact-details{
-    width: 40%;
-}
-.contact form{
-    width: 100%;
-    
-}
-.form-controls{
-    margin-bottom: 10px;
-}
-
-
-.contact-button{
-    padding: 8px 30px;
-}
-
-.footer{
-    display: flex;
-}
-
 } 
 
 
