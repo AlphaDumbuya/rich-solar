@@ -44,8 +44,8 @@ a{
 
 /* mobile nav menu  */
 ._nav_menu {
-    display: flex;
-    position:absolute;
+    display: none;
+    position: absolute;
     background-color: rgba(0,0,0,0.761);
     color:#fff;
     flex-direction: column;
