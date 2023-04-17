@@ -43,7 +43,7 @@ a{
 
 /* mobile nav menu  */
 ._nav_menu {
-    display: flex;
+    display: none;
     position:absolute;
     background-color: rgba(0,0,0,0.761);
     color:#fff;
