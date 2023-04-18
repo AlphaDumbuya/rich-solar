@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 html{
     scroll-behavior:smooth;
@@ -209,9 +210,21 @@ footer {
 
 .foot .socials{
     display: inline-block;
+    border-radius: 50%;
+}
+.foot .socials i{
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    margin: 15px;
+    display: inline-block;
+    font-size: 25px;
 }
 footer p{
-    font-size: 10px;
+    font-size: 13px;
+}
+footer p a{
+    text-decoration: underline;
 }
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
@@ -292,57 +305,23 @@ footer p{
     width: 50%;
     margin-right: 30px;
 }
+
 .ca{
     margin-bottom: 30px;
 }
+
 .products-content{
     width: 50%;
     margin-top: 0;
 }
+
 .products-content p{
     margin-top: 8px;
 }
+
 .ct-btn{
     
     margin-top: -30%;
-}
-
-/* About */
-.about{
-    padding: 80px 100px;
-    display: flex;
-}
-.about-content{
-   width: 50%;
-   margin-right: 30px;
-}
-.about-image{
-    width: 50%;
-}
-.about-button{
-    padding: 8px 30px;
-}
-/* contact */
-.contact{
-    margin: 30px;
-    padding: 80px 100px;
-     
-}  
-
-.contact-details{
-    width: 40%;
-}
-.contact form{
-    width: 100%;
-    
-}
-.form-controls{
-    margin-bottom: 10px;
-}
-
-
-.contact-button{
-    padding: 8px 30px;
 }
 
 .footer{

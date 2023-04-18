@@ -100,8 +100,8 @@ a{
     
 }
 .products-card{
-    background-color: rgba(64, 70, 89, 0.56);
-    color: #fff;
+    background-color: rgba(190, 200, 231, 0.56);
+    color: #363636;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 100px;
@@ -132,16 +132,20 @@ a{
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
+   
 }
 .products h3{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
+    margin-top: 20px;
+    margin-top: 20px;
 }
 
 .btn{
-    width: 200px;
+    width: 110px;
+    border-radius: 12%;
     height: 40px;
-    background-color: rgb(4, 6, 36);
+    background-color: rgb(11, 11, 11);
     margin-top: 50px;
     border: none;
     margin-left: 1x;
