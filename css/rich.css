@@ -12,16 +12,13 @@ body{
     font-size: 12px;
     background-color: #f2f5ff;
 }
-
 /* Nav header */
 header{
     background-color: orange;
     position: fixed;
     z-index: 100;
     width: 100%;
-    top: 0;
 }
-
 li{
     list-style: none;
 }
@@ -36,10 +33,11 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    
 }
 
 .nav-menu{
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -218,6 +216,11 @@ footer p{
 footer p a{
     text-decoration: underline;
 }
+
+.foot .socials{
+    font-size: 30px;
+    margin: 15px;
+}
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
     /* Header styles */
@@ -235,9 +238,10 @@ footer p a{
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
-        position: fixed;
+        position: none;
         left: -100%;
         top: 70px;
+        color: #fff;
         gap: 0;
         flex-direction: column;
         color: #262626;
@@ -251,6 +255,7 @@ footer p a{
     .nav-menu:active{
         left: 0;
     }
+    
 }
 
 @media screen and (min-width: 768px){
@@ -272,10 +277,7 @@ footer p a{
     ._nav_menu {
         display: none;
     }
-    a{
-        color: #fff;
-        text-decoration: none;
-    }
+    
 
     .hero h1{
         font-size: 16px;
