@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background-color: #f2f5ff;
+}
+/* Nav header */
+header{
+    background-color: orange;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+/* mobile nav menu  */
+._nav_menu {
+    display: none;
+    position:absolute;
+    background-color: rgba(0,0,0,0.761);
+    color:#fff;
+    flex-direction: column;
+    height: 780px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding-top: 5em;
+    gap: 24px;
+    font-size: 30px;
+}
+
+/* close nav menu  */
+.close_menu {
+        font-weight: bold;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+.nav-link{
+    transition: 0.7s ease;
+}
+.nav-link:hover{
+    color: dodgerblue;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+/* Media query styles for desktop screen */
+@media(max-width:768px) {
+    /* Header styles */
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        color: #262626;
+        width: 100%;
+        text-align: center;
+        transform: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu:active{
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+}
