@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 html{
     scroll-behavior:smooth;
@@ -37,7 +36,7 @@ a{
 }
 
 .nav-menu{
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -45,7 +44,7 @@ a{
 
 /* mobile nav menu  */
 ._nav_menu {
-    display: none;
+    display: flex;
     position:absolute;
     background-color: rgba(0,0,0,0.761);
     color:#fff;
@@ -96,7 +95,7 @@ a{
 .hero{
     width: 100%;
     padding: 160px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url(/img/solar.jpeg);  
+  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url(/img/solar.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,11 +128,10 @@ a{
 }
 
 .about h3 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
-    border-bottom: 5px solid orange;
-    width: 130px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 /* products */
@@ -177,7 +175,8 @@ a{
     margin-bottom: 30px;
 }
 .products h3{
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 .ct-btn{
@@ -192,7 +191,6 @@ a{
     font-size: 20px;
     font-weight: bold;
 }
-
 
 /* Footer */
 footer{
@@ -210,15 +208,6 @@ footer {
 
 .foot .socials{
     display: inline-block;
-    border-radius: 50%;
-}
-.foot .socials i{
-    min-width: 40px;
-    height: 40px;
-    color: #fff;
-    margin: 15px;
-    display: inline-block;
-    font-size: 25px;
 }
 footer p{
     font-size: 13px;
@@ -305,23 +294,57 @@ footer p a{
     width: 50%;
     margin-right: 30px;
 }
-
 .ca{
     margin-bottom: 30px;
 }
-
 .products-content{
     width: 50%;
     margin-top: 0;
 }
-
 .products-content p{
     margin-top: 8px;
 }
-
 .ct-btn{
     
     margin-top: -30%;
+}
+
+/* About */
+.about{
+    padding: 80px 100px;
+    display: flex;
+}
+.about-content{
+   width: 50%;
+   margin-right: 30px;
+}
+.about-image{
+    width: 50%;
+}
+.about-button{
+    padding: 8px 30px;
+}
+/* contact */
+.contact{
+    margin: 30px;
+    padding: 80px 100px;
+     
+}  
+
+.contact-details{
+    width: 40%;
+}
+.contact form{
+    width: 100%;
+    
+}
+.form-controls{
+    margin-bottom: 10px;
+}
+
+
+.contact-button{
+    padding: 8px 30px;
 }
 
 .footer{
