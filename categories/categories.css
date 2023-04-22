@@ -6,7 +6,7 @@
 
 body{
     font-size: 14px;
-    background-color: #f2faff;
+    background-color: #fff2f2;
 }
 
 /* Nav header */
@@ -91,23 +91,30 @@ a{
     background-color: #fff;
 }
 
+hr{
+    margin-bottom: 50px ;
+}
 
 /* products */
 .products{
     width: 100%;
     padding: 50px 20px;
     margin-top: 50px;
-    
+    height: 700px;
 }
 .products-card{
-    background-color: rgba(190, 200, 231, 0.56);
-    color: #363636;
+    width: 90px;
+    width: 100%;
     border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 100px;
+    background: #fff;
+    margin-top: 40px;
+}
+.products-content{
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .products-image{
-    height: 250px;
+    height: 400px;
     width: 90px;
     width: 100%;
     border-radius: 10px;
@@ -121,40 +128,47 @@ a{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
 }
 .products .products-image img{
-    height: 250px;
+    height: 400px;
 }
 .products-content{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
-    ;
+    font-size: 19px;
+    font-weight: 500px;
+}
+
+.products-content .power{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 200px;
+}
+.products-content .v{
+    margin: 10px;
+}
+
+.products-content .c{
+    margin-left: 10px;
+}
+.products-content .volt{
+    margin-left: 10px;
 }
 .products h2{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 5px solid orangered;
+   
    
 }
 .products h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
-    margin-top: 20px;
-    margin-top: 20px;
+   padding-top: 20px;
+    margin-bottom: 10px;
+    border-top-right-radius: 13%;
 }
 
-.btn{
-    width: 110px;
-    border-radius: 12%;
-    height: 40px;
-    background-color: rgb(11, 11, 11);
-    margin-top: 50px;
-    border: none;
-    margin-left: 1x;
-}
-.btn a{
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-}
 
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
@@ -194,33 +208,32 @@ a{
 @media screen and (min-width: 768px){
     
     /* Productts */
-.products{
+    .products{
     
-    padding: 80px 100px;
-     margin-bottom: -35%;
-}
-.products-card{
-    padding: 15px;
-    display: flex;
-     margin-bottom: 120px;
-}
-.products-image{
-    width: 50%;
-    margin-right: 30px;
-}
-.ca{
-    margin-bottom: 30px;
-}
-.products-content{
-    width: 50%;
-    margin-top: 0;
-}
-.products-content p{
-    margin-top: 8px;
-}
-.btn{
-    margin-top: 113px;
-}
+        padding: 80px 100px;
+         margin-bottom: -35%;
+    }
+    .products-card{
+        padding: 15px;
+        display: flex;
+         margin-bottom: 120px;
+         height: 450px;
+    }
+    .products-image{
+        width: 50%;
+        margin-right: 30px;
+        height: 300px;
+    }
+    .ca{
+        margin-bottom: 30px;
+    }
+    .products-content{
+        width: 50%;
+        margin-top: 0;
+    }
+    .products-content p{
+        margin-top: 8px;
+    }
 } 
 
 

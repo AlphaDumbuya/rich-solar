@@ -12,13 +12,16 @@ body{
     font-size: 14px;
     background-color: #f2f5ff;
 }
+
 /* Nav header */
 header{
     background-color: orange;
     position: fixed;
     z-index: 100;
     width: 100%;
+    top: 0;
 }
+
 li{
     list-style: none;
 }
@@ -33,11 +36,10 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    
 }
 
 .nav-menu{
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -92,6 +94,8 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 }
+
+
 /* hero section */
 .hero{
     width: 100%;
@@ -240,10 +244,9 @@ footer p a{
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
-        position: none;
+        position: fixed;
         left: -100%;
         top: 70px;
-        color: #fff;
         gap: 0;
         flex-direction: column;
         color: #262626;
@@ -257,7 +260,6 @@ footer p a{
     .nav-menu:active{
         left: 0;
     }
-    
 }
 
 @media screen and (min-width: 768px){
