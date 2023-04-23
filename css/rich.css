@@ -146,14 +146,14 @@ a{
     margin-bottom: 15%;
 }
 .products-card{
-    background-color: rgba(89, 64, 64, 0.56);
-    color: #fff;
+    width: 90px;
+    width: 100%;
     border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 100px;
+    background: #fff;
+    margin-top: 40px;
 }
 .products-image{
-    height: 250px;
+    height: 400px;
     width: 90px;
     width: 100%;
     border-radius: 10px;
@@ -167,7 +167,7 @@ a{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
 }
 .products .products-image img{
-    height: 250px;
+    height: 350px;
 }
 .products-content{
     margin-top: 20px;
@@ -175,14 +175,14 @@ a{
     ;
 }
 .products h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 .products h3{
-    font-size: 30px;
+    font-size: 18px;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .ct-btn{
     background-image: linear-gradient(to right, #f46b45, #eea849 51%, #ba8b02);
@@ -225,7 +225,7 @@ footer p a{
     font-size: 20px;
 }
 .foot .socials a{
-    margin: 7px;
+    margin: 3px;
 }
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
@@ -362,6 +362,9 @@ footer p a{
 
 .footer{
     display: flex;
+}
+.foot .socials a{
+    margin: 7px;
 }
 
 } 
