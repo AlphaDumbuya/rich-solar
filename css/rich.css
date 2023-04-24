@@ -95,7 +95,6 @@ a{
     background-color: #fff;
 }
 
-
 /* hero section */
 .hero{
     width: 100%;
@@ -123,21 +122,19 @@ a{
 }
 
 /* About */
-.about{
-    width: 100%;
-    padding: 50px 20px;
-    background-color: #eee;
-}
 .about-content{
-    padding: 80px 0;
+    margin-left: 20px;
+    margin-top:50px;
+    margin-bottom:0px;
 }
-
-.about h3 {
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 25px;
-}
+/* video */
+#background-video {
+    width: 90vw;
+    height: 50vh;
+    margin-left: 20px ;
+    margin-bottom: -10%;
+    
+  }
 
 /* products */
 .products{
@@ -171,6 +168,7 @@ a{
 }
 .products-content{
     margin-top: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     ;
 }
@@ -292,6 +290,13 @@ footer p a{
     .hero h3{
         font-size: 18px;
     }
+
+    /* video */
+    #background-video{
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 90%;
+    }
     /* Productts */
 .products{
     
@@ -323,20 +328,8 @@ footer p a{
 }
 
 /* About */
-.about{
-    padding: 80px 100px;
-    display: flex;
-}
-.about-content{
-   width: 50%;
-   margin-right: 30px;
-}
-.about-image{
-    width: 50%;
-}
-.about-button{
-    padding: 8px 30px;
-}
+
+
 /* contact */
 .contact{
     margin: 30px;
