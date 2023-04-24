@@ -129,6 +129,7 @@ hr{
 .products .products-image img{
     height: 400px;
 }
+
 .products-content{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -141,6 +142,7 @@ hr{
     margin-right: 10px;
     font-weight: 200px;
 }
+
 .products-content .v{
     margin: 10px;
 }
@@ -150,6 +152,11 @@ hr{
 }
 .products-content .volt{
     margin-left: 10px;
+}
+
+.battery{
+    margin-bottom: -2%;
+    margin-top: 10px;
 }
 .products h2{
     font-size: 30px;
@@ -218,11 +225,15 @@ hr{
          margin-bottom: 120px;
          height: 450px;
     }
+    .inverter{
+        height: 670px;
+    }
     .products-image{
         width: 40%;
         margin-right: 30px;
         height: 300px;
     }
+   
     .ca{
         margin-bottom: 30px;
     }
@@ -230,8 +241,19 @@ hr{
         width: 50%;
         margin-top: 0;
     }
+    .products-content .inverter-wrapper{
+        display: flex;
+        margin: 13px;
+    }
     .products-content p{
         margin-top: 8px;
+    }
+
+    .products-content h3{
+        margin-top: 15px;
+    }
+    .products-card im{
+        width: 400px;
     }
 } 
 

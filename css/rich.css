@@ -225,7 +225,7 @@ footer p a{
     font-size: 20px;
 }
 .foot .socials a{
-    margin: 3px;
+    margin: 2px;
 }
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
