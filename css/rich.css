@@ -217,10 +217,10 @@ a{
 }
 
 .service-container{
-    width: 40%;
+    width: 100%;
     margin-bottom: 100px;
     height: 170px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .service-container .box{
     font-size: 30px;
