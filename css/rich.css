@@ -99,7 +99,7 @@ a{
 .hero{
     width: 100%;
     padding: 160px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url(/img/solar.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgb(0,0,0,0.5)100%), url(/img/solar.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,17 +108,16 @@ a{
     font-size: 15px;
     text-align: center;
 }
-.hero-left-content h1{
-    font-size: 12px;
-    border-bottom: 5px solid teal wavy;
-}
-.hero-left-content h2{
+
+.hero-content h2{
     font-size: 24px;
+    margin-bottom: 20px;
     padding: 6px 0;
     
 }
-.hero-left-content p{
+.hero-content h3{
     padding: 4px 35px 0 0;
+    font-size: 17px;
 }
 
 /* About */
@@ -170,18 +169,22 @@ a{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
-    ;
+    
 }
 .products h2{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.products h3{
+.products-content h3{
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 500;
+    margin-top: 10px;
+    
 }
+
+
 .ct-btn{
     background-image: linear-gradient(to right, #f46b45, #eea849 51%, #ba8b02);
    border: 1px solid white;
@@ -236,7 +239,7 @@ a{
 }
 
 .service-content{
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .h2{
@@ -340,14 +343,18 @@ footer p a{
     }
     
 
-    .hero h1{
-        font-size: 16px;
-    }
-    .hero h2{
+    .hero-content h2{
         font-size: 45px;
+        margin-bottom: 20px;
+       
+        
+    }
+    .hero-content h3{
+        padding: 4px 35px 0 0;
+        font-size: 17px;
     }
     .hero h3{
-        font-size: 18px;
+        font-size: 28px;
     }
 
     /* video */
