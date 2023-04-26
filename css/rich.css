@@ -195,6 +195,54 @@ a{
     font-weight: bold;
 }
 
+/* service */
+.service{
+    padding: 50px 40px;
+    background: #ccc;
+}
+
+.container{
+    width: 100%;
+    display: block;
+    margin-left: 90px;
+}
+
+.service h2{
+    font-size: 25px;
+     font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: -3%;
+    text-align: center;
+}
+
+.service-container{
+    width: 40%;
+    margin-bottom: 100px;
+    height: 170px;
+    margin-top: 30px;
+}
+.service-container .box{
+    font-size: 30px;
+    color: #f46b45;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.service-container h3{
+    text-align: center;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+
 /* Footer */
 footer{
     width: 100%;
@@ -221,7 +269,14 @@ footer p a{
 
 .foot .socials{
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
+.follow-us{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
 .foot .socials a{
     margin: 2px;
 }
@@ -327,7 +382,48 @@ footer p a{
     margin-top: -30%;
 }
 
-/* About */
+/* service */
+.service{
+    padding: 50px 40px;
+    background: #ccc;
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    
+}
+
+.service h2{
+    font-size: 25px;
+     font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: -3%;
+    width: 200px;
+}
+
+.service-container{
+    width: 40%;
+    margin: 9px;
+    height: 170px;
+}
+.service-container .box{
+    font-size: 30px;
+    color: #f46b45;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-container h3{
+    text-align: center;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.h2{
+    margin-left: 90px;
+}
 
 
 /* contact */
