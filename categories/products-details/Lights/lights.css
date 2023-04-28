@@ -141,6 +141,7 @@ a{
     font-weight: 400;
     margin-bottom: 30px;
     text-align: center;
+    margin-top: 40px;
     border-bottom: 5px solid orangered;
     
 }
@@ -151,7 +152,6 @@ a{
     margin-bottom: 10px;
     border-top-right-radius: 13%;
 }
-
 
 
 /* Media query styles for desktop screen */
