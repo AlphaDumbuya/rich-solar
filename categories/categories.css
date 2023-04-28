@@ -175,6 +175,26 @@ hr{
     border-top-right-radius: 13%;
 }
 
+h2{
+    margin-top: 60px;
+}
+
+.lgt-btn a{
+    font-size: 18px;
+    color: #fff;
+   
+}
+
+
+.lgt-btn{
+    background: rgb(4, 0, 13);
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 15%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
@@ -255,6 +275,23 @@ hr{
     .products-card im{
         width: 400px;
     }
+
+    .lgt-btn a{
+        font-size: 18px;
+        color: #fff;
+       
+    }
+    
+    
+    .lgt-btn{
+        background: rgb(4, 0, 13);
+        margin-top: 30px;
+        width: 20%;
+        border-radius: 15%;
+        height: 30px;
+    }
+    
+    
 } 
 
 
