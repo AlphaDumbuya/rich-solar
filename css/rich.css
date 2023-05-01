@@ -267,9 +267,11 @@ footer {
 .foot .socials{
     display: inline-block;
 }
+
 footer p{
     font-size: 13px;
 }
+
 footer p a{
     text-decoration: underline;
 }
@@ -279,6 +281,7 @@ footer p a{
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
 .follow-us{
     font-size: 16px;
     margin-bottom: 15px;
@@ -287,6 +290,7 @@ footer p a{
 .foot .socials a{
     margin: 2px;
 }
+
 /* Media query styles for desktop screen */
 @media(max-width:768px) {
     /* Header styles */
@@ -297,12 +301,15 @@ footer p a{
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
     }
+
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
+
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -314,9 +321,11 @@ footer p a{
         text-align: center;
         transform: 0.3s;
     }
+
     .nav-item{
         margin: 16px 0;
     }
+
     .nav-menu:active{
         left: 0;
     }
@@ -327,9 +336,11 @@ footer p a{
     body{
         font-size: 15px;
     }
+
     h2{
         font-size: 30px;
     }
+
     /* hero */
     .hero{
         padding: 200px 100px;
@@ -361,33 +372,40 @@ footer p a{
     #background-video{
         margin-bottom: 50px;
         margin-top: 30px;
-        width: 90%;
+        width: 100%;
     }
+
     /* Productts */
 .products{
     
     padding: 80px 100px;
      margin-bottom: 10px
 }
+
 .products-card{
     padding: 15px;
     display: flex;
      margin-bottom: 120px;
 }
+
 .products-image{
     width: 50%;
     margin-right: 30px;
 }
+
 .ca{
     margin-bottom: 30px;
 }
+
 .products-content{
     width: 50%;
     margin-top: 0;
 }
+
 .products-content p{
     margin-top: 8px;
 }
+
 .ct-btn{
     
     margin-top: -30%;
@@ -419,6 +437,7 @@ footer p a{
     margin: 9px;
     height: 170px;
 }
+
 .service-container .box{
     font-size: 30px;
     color: #f46b45;
@@ -426,6 +445,7 @@ footer p a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .service-container h3{
     text-align: center;
     color: blue;
@@ -451,6 +471,7 @@ footer p a{
     width: 100%;
     
 }
+
 .form-controls{
     margin-bottom: 10px;
 }
@@ -463,6 +484,7 @@ footer p a{
 .footer{
     display: flex;
 }
+
 .foot .socials a{
     margin: 7px;
 }

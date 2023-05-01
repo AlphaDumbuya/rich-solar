@@ -15,9 +15,11 @@ header{
     width: 100%;
     top: 0;
 }
+
 li{
     list-style: none;
 }
+
 a{
     color: #fff;
     text-decoration: none;
@@ -68,16 +70,20 @@ a{
 .nav-branding{
     font-size: 2rem;
 }
+
 .nav-link{
     transition: 0.7s ease;
 }
+
 .nav-link:hover{
     color: dodgerblue;
 }
+
 .hamburger{
     display: none;
     cursor: pointer;
 }
+
 .bar{
     display: block;
     width: 25px;
@@ -103,15 +109,18 @@ a{
     max-width: 800px;
     text-align: center;
 }
+
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
     color: #fff;
 }
+
 .contact .content p{
     font-weight: 300;
     color: #fff;
 }
+
 .container{
     width: 100%;
     display: block;
@@ -132,6 +141,7 @@ a{
     padding: 20px 0;
     display: flex;
 }
+
 .container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
@@ -155,6 +165,7 @@ a{
 .container .contactInfo .box .text p{
     width: 100%;
 }
+
 .container .contactInfo .box .text h2{
     font-weight: 500;
     color: #a6ecf5;
@@ -230,12 +241,15 @@ a{
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
     }
+
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
+
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -247,9 +261,11 @@ a{
         text-align: center;
         transform: 0.3s;
     }
+
     .nav-item{
         margin: 16px 0;
     }
+
     .nav-menu:active{
         left: 0;
     }
@@ -268,19 +284,23 @@ a{
         background-color: #fff;
         margin-top: 60px;
     }
+
     .contact .content{
         max-width: 800px;
         text-align: center;
     }
+
     .contact .content h2{
         font-size: 36px;
         font-weight: 500;
         color: #fff;
     }
+
     .contact .content p{
         font-weight: 300;
         color: #fff;
     }
+    
     .container{
         width: 100%;
         display: flex;

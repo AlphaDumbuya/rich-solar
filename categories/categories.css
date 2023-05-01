@@ -20,6 +20,7 @@ header{
 li{
     list-style: none;
 }
+
 a{
     color: #fff;
     text-decoration: none;
@@ -70,16 +71,20 @@ a{
 .nav-branding{
     font-size: 2rem;
 }
+
 .nav-link{
     transition: 0.7s ease;
 }
+
 .nav-link:hover{
     color: dodgerblue;
 }
+
 .hamburger{
     display: none;
     cursor: pointer;
 }
+
 .bar{
     display: block;
     width: 25px;
@@ -101,6 +106,7 @@ hr{
     margin-top: 50px;
     height: 700px;
 }
+
 .products-card{
     width: 90px;
     width: 100%;
@@ -108,24 +114,29 @@ hr{
     background: #fff;
     margin-top: 40px;
 }
+
 .products-content{
     margin-left: 20px;
     margin-top: 20px;
 }
+
 .products-image{
     height: 400px;
     width: 90px;
     width: 100%;
     border-radius: 10px;
 }
+
 .ca{
     margin-bottom: 15px;
 }
+
 .products-image img{
     width: 100%;
     border-radius: 12px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.261);
 }
+
 .products .products-image img{
     height: 400px;
 }
@@ -150,6 +161,7 @@ hr{
 .products-content .c{
     margin-left: 10px;
 }
+
 .products-content .volt{
     margin-left: 10px;
 }
@@ -158,6 +170,7 @@ hr{
     margin-bottom: -2%;
     margin-top: 10px;
 }
+
 .products h2{
     font-size: 30px;
     font-weight: 400;
@@ -206,12 +219,15 @@ h2{
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
     }
+
     .hamburger.active .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
+
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+    
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -223,9 +239,11 @@ h2{
         text-align: center;
         transform: 0.3s;
     }
+
     .nav-item{
         margin: 16px 0;
     }
+
     .nav-menu:active{
         left: 0;
     }
@@ -239,15 +257,18 @@ h2{
         padding: 80px 100px;
          margin-bottom: -35%;
     }
+
     .products-card{
         padding: 15px;
         display: flex;
          margin-bottom: 120px;
          height: 450px;
     }
+
     .inverter{
         height: 670px;
     }
+
     .products-image{
         width: 40%;
         margin-right: 30px;
@@ -257,14 +278,17 @@ h2{
     .ca{
         margin-bottom: 30px;
     }
+
     .products-content{
         width: 50%;
         margin-top: 0;
     }
+
     .products-content .inverter-wrapper{
         display: flex;
         margin: 13px;
     }
+
     .products-content p{
         margin-top: 8px;
     }
@@ -272,6 +296,7 @@ h2{
     .products-content h3{
         margin-top: 15px;
     }
+    
     .products-card im{
         width: 400px;
     }
