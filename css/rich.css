@@ -44,6 +44,11 @@ a{
     gap: 60px;
 }
 
+.nav-branding img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
 /* mobile nav menu  */
 ._nav_menu {
     display: none;
@@ -272,7 +277,7 @@ a{
 /* service */
 .service{
     padding: 50px 40px;
-    background: #ccc;
+    background: #e5e7e7;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -486,6 +491,7 @@ footer {
 
 footer p{
     font-size: 13px;
+    margin-bottom: 10px;
 }
 
 footer p a{
