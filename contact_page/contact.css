@@ -40,6 +40,12 @@ a{
     gap: 60px;
 }
 
+/* logo */
+.nav-branding img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
 /* mobile nav menu  */
 ._nav_menu {
     display: none;
