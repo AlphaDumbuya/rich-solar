@@ -9,6 +9,9 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/i18next@20.4.3/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.1/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+    <meta charset="UTF-8">
     <title>Rich Solar PV</title>
 </head>
 <body>
@@ -17,7 +20,16 @@
       <header>
         <nav class="navbar">
             <a href="" class="nav-branding"><img src="./img/logo.jpg" alt=""></a>
+            <li>
+                <select id="language-selector">
+                  <option value="en">English</option>
+                  <option value="fr">Français</option>
+                  <option value="ar">عربى</option>
+                </select>
+              </li>
             <ul class="nav-menu">
+                <!-- translate -->
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 
@@ -48,9 +60,9 @@
             </div>
         </nav>
     </header>
-
     <!-- End of Navigation Header -->
 
+    
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="hero-content">
@@ -163,7 +175,7 @@
     <!-- service section -->
      <h2 class="h2">Our Service</h2>
         <section id="service" class="service">
-           
+            <button id="translate-button">Translate</button>
             <div class="service-container">
                 <div class="box">
                     <i class="fas fa-truck"></i>
@@ -251,7 +263,6 @@
          </div>
             </div>
          </section>
-       
    
    <!-- Footer -->
    <footer>
@@ -275,6 +286,7 @@
   </footer>
   <!-- End of Footer -->
     <script src="/js/app.js"></script>
+    <script src="/css/index.js"></script>
   </main>
 </body>
 </html>

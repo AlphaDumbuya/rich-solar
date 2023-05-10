@@ -61,3 +61,33 @@ dots.forEach((dot, index) => {
       currentSlide = i
     })
   })
+
+
+  // Set the API key and endpoint
+var apiKey = "AIzaSyAt4aqlcBJlKT27zkQUxGO7vCQUNNjanE0";
+var endpoint = "https://translation.googleapis.com/language/translate/v2";
+
+// Get the translation button and add an event listener
+var translateButton = document.getElementById("translate-button");
+translateButton.addEventListener("click", function() {
+  // Get the text to translate
+  var textToTranslate = document.body.innerText;
+
+  // Send a translation request to the Google Translation API
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", endpoint);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      // Get the translation result and replace the text on the page
+      var translationResult = JSON.parse(xhr.responseText);
+      var translatedText = translationResult.data.translations[0].translatedText;
+      document.body.innerHTML = document.body.innerHTML.replace(textToTranslate, translatedText);
+    }
+  };
+  var requestBody = {
+    "q": textToTranslate,
+    "target": "fr" // Replace with your target language code
+  };
+  xhr.send(JSON.stringify(requestBody));
+});
